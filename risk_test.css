@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+.battle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.attacker {
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+}
+
+.defender {
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+}
+
+.dice-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.dice {
+    display: flex;
+    align-self: center;
+}

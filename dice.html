@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="dice.css" />
+        <script src="dice.js"></script>
+        <title>RISK Dobbelstenen</title>
+    </head>
+    <body>
+        <div class="battle-container">    
+            <div class="dice-container">
+                <div class="dice-attack-wrapper">
+                    <!-- <button  onclick="diceCount()" class="dice" id="diceAtk1">&#9856;</button><button onclick="diceCount()" class="dice" id="diceAtk2">&#9857</button><button onclick="diceCount()" class="dice" id="diceAtk3">&#9858</button> -->
+                    <input type="checkbox" onclick="diceCount()" class="dice-box" id="diceAtk1">
+                    <label class="dice attack" for="diceAtk1">&#9856;</label>
+                    <input type="checkbox" onclick="diceCount()" class="dice-box" id="diceAtk2">
+                    <label class="dice attack" for="diceAtk2">&#9857;</label> 
+                    <input type="checkbox" onclick="diceCount()" class="dice-box" id="diceAtk3">
+                    <label class="dice attack" for="diceAtk3">&#9858;</label>
+                </div>
+                <div class="dice-defence-wrapper">
+                    <!-- <button onclick="diceCount()" class="dice" id="diceDef1">&#9856;</button><button onclick="diceCount()" class="dice" id="diceDef2">&#9857</button> -->
+                    <input type="checkbox" onclick="diceCount()" class="dice-box" id="diceDef1">
+                    <label class="dice defence" for="diceDef1">&#9856;</label>
+                    <input type="checkbox" onclick="diceCount()" class="dice-box" id="diceDef2">
+                    <label class="dice defence" for="diceDef2">&#9857;</label> 
+                </div>
+            </div>
+            
+            <div class="throw-button-container"><button onclick="diceThrow()" class="dice-trow-button" id="diceThrowButton">Kies de dobbelstenen</button>
+                <div class="dice" id="showThrow1"></div>
+                <div class="dice" id="showThrow2"></div>
+                <div class="dice" id="showThrow3"></div>
+        </div>
+
+        <!-- <div class="battle-container">
+            <div class="dice-container">
+                <div class="attack-wrapper">
+                    <div class="dice-attack-wrapper">
+                        <button class="dice">&#9856;</button><button class="dice">&#9857</button><button class="dice">&#9858</button>
+                    </div>
+                </div>
+                <div class="defence-wrapper">
+                    <div class="dice-defence-wrapper">
+                        <button class="dice">&#9856;</button><button class="dice">&#9857</button>
+                    </div>
+                </div>
+            </div>
+        </br>
+            <div class="throw-button-container">
+                <button onclick="diceThrow()">Werp</button>
+                <div id="showThrow"></div>
+            </div>
+        </div> -->
+
+        <!-- <div class="continentainer" id="continenTainer">
+            <div class="gebied land-1" id="gebied">Land 1</div>
+            <div class="gebied land-2" id="gebied">Land 2</div>
+            <div class="gebied land-3" id="gebied">Land 3</div>
+            <div class="gebied land-4" id="gebied">Land 4</div>
+        </div> -->
+    </body>
+</html>

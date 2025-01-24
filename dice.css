@@ -1,0 +1,83 @@
+.battle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    border: 0.5em solid darkgreen;
+}
+.dice-container {
+    display: flex;
+}
+.dice-attack-wrapper {
+    display: flex;
+    padding: 1rem;
+    background-color: brown;
+    border: 0.5em solid darkred;
+}
+.dice-defence-wrapper {
+    display: flex;
+    padding: 1rem;
+    background-color: darkslateblue;
+    border: 0.5em solid darkblue;
+}
+
+.attack-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.defence-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.attack {
+    color: black;
+    background-color: darkred;
+}
+
+.defence {
+    color: white;
+    background-color: darkblue;
+}
+
+.dice {
+    line-height: 3 rem;
+    /* letter-spacing: -0.5rem; */
+    font-size: 4em;
+}
+
+/* Checkbox uit de DOM halen met appearance: none; | Verbergen met visibility: hidden; OF opacity: 0%; | display: hidden; werkt niet! */
+.dice-box {
+    appearance: none;
+}
+
+.throw-button-container {
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.dice-trow-button {
+    width: 8rem;
+}
+
+.throw-button-container {
+    display: flex;
+    height: 40px;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.dice.selected {
+    color: red;
+    border: 2px solid gold;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

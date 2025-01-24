@@ -1,0 +1,133 @@
+.map-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continentainer {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 800px;
+    height: 800px;
+}
+
+.gebied {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+div.gebied:hover {
+    opacity: 0.75;
+    border: solid 2px black;
+}
+div.gebied:active {
+    opacity: 0.75;
+    border: solid 2px white;
+}
+div.gebied:focus {
+    opacity: 0.75;
+    border: solid 2px orange;
+}
+div.gebied:focus-within {
+    opacity: 0.75;
+    border: solid 2px orange;
+}
+.land-1 {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.land-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.land-3 {
+    width: 200px;
+    height: 200px;
+    background-color: darkred;
+}
+
+.land-4 {
+    width: 200px;
+    height: 200px;
+    background-color: darkorchid;
+}
+
+.land-5 {
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+}
+
+.land-6 {
+    width: 200px;
+    height: 200px;
+    background-color: darkslateblue;
+}
+
+.land-7 {
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+}
+
+.land-8 {
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+
+.land-9 {
+    width: 200px;
+    height: 200px;
+    background-color: darkkhaki;
+}
+
+.land-10 {
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+}
+
+.land-11 {
+    width: 200px;
+    height: 200px;
+    background-color: darkseagreen;
+}
+
+.land-12 {
+    width: 200px;
+    height: 200px;
+    background-color: darkslategray;
+}
+
+.land-13 {
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon;
+}
+
+.land-14 {
+    width: 200px;
+    height: 200px;
+    background-color: darkturquoise;
+}
+
+.land-15 {
+    width: 200px;
+    height: 200px;
+    background-color: darkviolet;
+}
+
+.land-16 {
+    width: 200px;
+    height: 200px;
+    background-color: deeppink;
+}
