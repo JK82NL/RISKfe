@@ -7,29 +7,37 @@
         <script src="risk_test.js"></script>
         <title>Risk Test Versie</title>
     </head>
-    
+    <body>
         <h1>Risk Test Versie</h1>
-    </br></br></br></br></br>
+
         <div class="battle-container" id="battleContainer">
             <div class="attacker" id="attacker">
                 <h2>Attacker</h2>
-                <div class="dice-1" id="p1Points1">0</div><div class="dice-2" id="p1Points2">0</div></br>
-                <Input type="text" id="attackerInput"></Input>
+                <div class="dice-1" id="p1Points1">0</div>
+                <div class="dice-2" id="p1Points2">0</div>
+                <input type="text" id="attackerInput" />
                 <button onclick="p1Army()">Bevestigen</button>
                 <div class="army" id="p1Army"></div>
             </div>
             <div class="defender" id="defender">
                 <h2>Defender</h2>
-                <div class="dice-1" id="p1Points1">0</div><div class="dice-2" id="p1Points2">0</div></br>
-                <Input type="text" id="defenderInput"></input>
+                <div class="dice-1" id="p1Points1">0</div>
+                <div class="dice-2" id="p1Points2">0</div>
+                <input type="text" id="defenderInput" />
                 <button onclick="p2Army()">Bevestigen</button>
                 <div class="army" id="p2Army"></div>
             </div>
         </div>
-    </br></br></br></br></br>
         <div class="dice-container" id="diceContainer">
-            <div class="dice" id="dice">0<h2>Dice</h2><div class="dice-1" id="dice1">0</div><div class="dice-2" id="dice2"></div></div></div>
-            <button onclick="diceRoll()" class="dice-button" id="diceButton">Gooi</button></button>
+            <div class="dice" id="dice">
+                0
+                <h2>Dice</h2>
+                <div class="dice-1" id="dice1">0</div>
+                <div class="dice-2" id="dice2"></div>
+            </div>
+            <button onclick="diceRoll()" class="dice-button" id="diceButton">
+                Gooi
+            </button>
         </div>
     </body>
 </html>
