@@ -24,13 +24,21 @@ h1 {
 
 .dice-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.dice-title {
+    display: flex;
 }
 
 .dice {
     display: flex;
-    align-self: center;
+    flex-direction: column;
+}
+
+.dice-button {
+    display: flex;
 }
