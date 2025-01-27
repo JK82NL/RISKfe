@@ -13,27 +13,30 @@
         <div class="battle-container" id="battleContainer">
             <div class="attacker" id="attacker">
                 <h2>Attacker</h2>
-                <div class="dice-1" id="p1Points1">0</div>
-                <div class="dice-2" id="p1Points2">0</div>
-                <input type="text" id="attackerInput" />
-                <button onclick="p1Army()">Bevestigen</button>
-                <div class="army" id="p1Army"></div>
+                <div class="dice-1" id="player1Points1">0</div>
+                <div class="dice-2" id="player1Points2">0</div>
+                <input type="text" class="attacker-input" id="attackerInput" />
+                <button onclick="player1Army()" id="attackerButton">
+                    Bevestigen
+                </button>
+                <div class="army" id="player1Army"></div>
             </div>
             <div class="defender" id="defender">
                 <h2>Defender</h2>
-                <div class="dice-1" id="p1Points1">0</div>
-                <div class="dice-2" id="p1Points2">0</div>
-                <input type="text" id="defenderInput" />
-                <button onclick="p2Army()">Bevestigen</button>
-                <div class="army" id="p2Army"></div>
+                <div class="dice-1" id="player2Points1">0</div>
+                <div class="dice-2" id="player2Points2">0</div>
+                <input type="text" class="defender-input" id="defenderInput" />
+                <button onclick="player2Army()" id="defenderButton">
+                    Bevestigen
+                </button>
+                <div class="army" id="player2Army"></div>
             </div>
         </div>
         <div class="dice-container" id="diceContainer">
+            <h2 class="dice-title">Dice</h2>
             <div class="dice" id="dice">
-                0
-                <h2>Dice</h2>
                 <div class="dice-1" id="dice1">0</div>
-                <div class="dice-2" id="dice2"></div>
+                <div class="dice-2" id="dice2">0</div>
             </div>
             <button onclick="diceRoll()" class="dice-button" id="diceButton">
                 Gooi
