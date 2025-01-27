@@ -21,6 +21,11 @@
                 </button>
                 <div class="army" id="player1Army"></div>
             </div>
+            <div>
+                <button onclick="battleRetreat()" id="battleRetreat">
+                    Retreat from Battle
+                </button>
+            </div>
             <div class="defender" id="defender">
                 <h2>Defender</h2>
                 <div class="dice-1" id="player2Points1">0</div>
@@ -32,7 +37,6 @@
                 <div class="army" id="player2Army"></div>
             </div>
         </div>
-        <div class="win-message" id="winMessage"></div>
         <div class="dice-container" id="diceContainer">
             <h2 class="dice-title">Dice</h2>
             <div class="dice" id="dice">
@@ -42,6 +46,7 @@
             <button onclick="diceRoll()" class="dice-button" id="diceButton">
                 Gooi
             </button>
+            <div class="win-message" id="winMessage"></div>
         </div>
     </body>
 </html>

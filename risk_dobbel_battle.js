@@ -35,8 +35,28 @@ function player2Army() {
     console.log(player2);
 }
 
+function battleRetreat() {
+    player1 = 0;
+    player2 = 0;
+    document.getElementById("player1Army").innerHTML = player1;
+    document.getElementById("player2Army").innerHTML = player2;
+    player1Total = 0;
+    player2Total = 0;
+    document.getElementById("player1Points1").innerHTML = player1Total;
+    document.getElementById("player1Points2").innerHTML = player1Total;
+    document.getElementById("player2Points1").innerHTML = player2Total;
+    document.getElementById("player2Points2").innerHTML = player2Total;
+    dice1 = 0;
+    dice2 = 0;
+    document.getElementById("dice1").innerHTML = dice1;
+    document.getElementById("dice2").innerHTML = dice2;
+    let playerTurn = 1;
+    document.getElementById("winMessage").innerHTML = "Attacker has retreated from the battlefield!";
+}
+
 function diceRoll() {
     winnerCalculation()
+    document.getElementById("winMessage").innerHTML = "";
     dice1 = Math.floor(Math.random() * 6) + 1;
     dice2 = Math.floor(Math.random() * 6) + 1;
     document.getElementById("dice1").innerHTML = dice1;
